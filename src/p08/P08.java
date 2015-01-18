@@ -58,4 +58,9 @@ public class P08 extends Euler {
 		return "P08";
 	}
 	
+//	@Override
+	public String description() {
+		return "";
+	}
+
 }

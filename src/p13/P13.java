@@ -130,5 +130,10 @@ public class P13 extends Euler {
 	public String getName() {
 		return "P13";
 	}
+	
+//	@Override
+	public String description() {
+		return "";
+	}
 
 }

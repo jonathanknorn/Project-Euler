@@ -29,4 +29,9 @@ public class P02 extends Euler {
 		return "P02";
 	}
 	
+//	@Override
+	public String description() {
+		return "";
+	}
+
 }

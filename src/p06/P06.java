@@ -24,5 +24,10 @@ public class P06 extends Euler  {
 	public String getName(){
 		return "P06";
 	}
+	
+//	@Override
+	public String description() {
+		return "";
+	}
 
 }

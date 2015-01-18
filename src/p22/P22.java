@@ -19,7 +19,7 @@ public class P22 extends Euler {
 		Scanner read;
 		ArrayList<String> list = new ArrayList<String>();
 		try {
-			read = new Scanner(new File("names.txt"));
+			read = new Scanner(new File("p022_names.txt"));
 			read.useDelimiter(",");
 			while (read.hasNext()) {
 				String s = read.next();
@@ -51,6 +51,11 @@ public class P22 extends Euler {
 	@Override
 	public String getName() {
 		return "P22";
+	}
+	
+//	@Override
+	public String description() {
+		return "";
 	}
 
 }

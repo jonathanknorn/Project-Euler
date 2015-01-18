@@ -12,14 +12,9 @@ public class P25 extends Euler {
 
 	@Override
 	public long run() {
-		String thousand = "1000000000000000000000000000000000000000";
-		for(int i = 0; i < 24; i++){
-			thousand += "0000000000000000000000000000000000000000";
-		}
-
 		BigInteger b1 = BigInteger.ONE;
 		BigInteger b2 = BigInteger.ONE;
-		BigInteger comp = new BigInteger(thousand);
+		BigInteger comp = BigInteger.valueOf(10).pow(999);
 		BigInteger temp;
 
 		long count = 2;
@@ -35,6 +30,11 @@ public class P25 extends Euler {
 	@Override
 	public String getName() {
 		return "P25";
+	}
+	
+//	@Override
+	public String description() {
+		return "";
 	}
 
 }

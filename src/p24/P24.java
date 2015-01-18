@@ -1,8 +1,5 @@
 package p24;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import res.Euler;
 
 public class P24 extends Euler {
@@ -38,8 +35,12 @@ public class P24 extends Euler {
 	
 	@Override
 	public String getName() {
-	return "P24";
+		return "P24";
 	}
-
+	
+//	@Override
+	public String description() {
+		return "";
+	}
 
 }

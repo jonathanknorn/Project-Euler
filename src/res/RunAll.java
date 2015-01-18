@@ -27,6 +27,27 @@ import p22.P22;
 import p23.P23;
 import p24.P24;
 import p25.P25;
+import p27.P27;
+import p28.P28;
+import p29.P29;
+import p30.P30;
+import p31.P31;
+import p32.P32;
+import p33.P33;
+import p35.P35;
+import p36.P36;
+import p37.P37;
+import p38.P38;
+import p39.P39;
+import p40.P40;
+import p41.P41;
+import p42.P42;
+import p43.P43;
+import p52.P52;
+import p55.P55;
+import p56.P56;
+import p58.P58;
+import p67.P67;
 
 public class RunAll {
 
@@ -57,7 +78,27 @@ public class RunAll {
 		list.add(new P23());
 		list.add(new P24());
 		list.add(new P25());
-
+		list.add(new P27());
+		list.add(new P28());
+		list.add(new P29());
+		list.add(new P30());
+		list.add(new P31());
+		list.add(new P32());
+		list.add(new P33());
+		list.add(new P35());
+		list.add(new P36());
+		list.add(new P37());
+		list.add(new P38());
+		list.add(new P39());
+		list.add(new P40());
+		list.add(new P41());
+		list.add(new P42());
+		list.add(new P43());
+		list.add(new P52());
+		list.add(new P55());
+		list.add(new P56());
+		list.add(new P58());
+		list.add(new P67());
 		
 		long bef, aft;
 		long befA = System.currentTimeMillis();
@@ -65,9 +106,9 @@ public class RunAll {
 		
 		for(Euler e : list){
 			bef = System.currentTimeMillis();
-			System.out.println(e.run());
+			long l = e.run();
 			aft = System.currentTimeMillis();
-			System.out.println(e.getName() + ": " + (aft-bef) + "ms");
+			System.out.println(e.getName() + ": " + l + "\n ran in " + (aft-bef) + "ms\n");
 		}
 		aft = System.currentTimeMillis();
 		

@@ -1,6 +1,7 @@
 package p17;
 
 import java.util.HashMap;
+
 import res.Euler;
 
 public class P17 extends Euler {
@@ -73,6 +74,11 @@ public class P17 extends Euler {
 	@Override
 	public String getName() {
 		return "P17";
+	}
+	
+//	@Override
+	public String description() {
+		return "";
 	}
 
 }

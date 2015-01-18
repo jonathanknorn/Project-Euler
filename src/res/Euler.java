@@ -6,4 +6,6 @@ public abstract class Euler {
 	
 	public abstract String getName();
 
+	public abstract String description();
+
 }

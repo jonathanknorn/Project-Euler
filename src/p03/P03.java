@@ -29,5 +29,10 @@ public class P03 extends Euler  {
 	public String getName(){
 		return "P03";
 	}
+	
+//	@Override
+	public String description() {
+		return "";
+	}
 
 }
