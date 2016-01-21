@@ -5,7 +5,10 @@ import res.Euler;
 public class P02 extends Euler {
 
 	public static void main(String[] args) {
-		System.out.println(new P02().run());
+		Euler p = new P02();
+		System.out.println(p.description());
+		System.out.println("\n------------------------------------------\n");
+		System.out.println(p.run());
 	}
 
 	@Override

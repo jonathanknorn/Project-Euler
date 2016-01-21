@@ -6,7 +6,10 @@ public class P10 extends Euler {
 
 
 	public static void main(String[] args) {
-		System.out.println(new P10().run());
+		Euler p = new P10();
+		System.out.println(p.description());
+		System.out.println("\n------------------------------------------\n");
+		System.out.println(p.run());
 	}
 
 	@Override

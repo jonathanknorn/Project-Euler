@@ -1,12 +1,15 @@
 package p04;
 
-import res.Resources;
 import res.Euler;
+import res.Resources;
 
 public class P04 extends Euler  {
 
 	public static void main(String[] args) {
-		System.out.println(new P04().run());
+		Euler p = new P04();
+		System.out.println(p.description());
+		System.out.println("\n------------------------------------------\n");
+		System.out.println(p.run());
 	}
 
 	@Override
